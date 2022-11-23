@@ -51,7 +51,7 @@ public class Main {
             System.out.print(k + "; ");
             k+=2;
         }
-        System.out.print("]");
+        System.out.println("]");
         return arr;
     }
 
