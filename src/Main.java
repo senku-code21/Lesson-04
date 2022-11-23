@@ -21,7 +21,7 @@ public class Main {
         }
         System.out.println("]");
         return arr;
-    };
+    }
 
 
     public int[] task2() {
@@ -37,7 +37,7 @@ public class Main {
         }
         System.out.print("]");
         return arr;
-    };
+    }
 
 
     public void task3() {
@@ -55,6 +55,5 @@ public class Main {
             }
         } while (repite);
         System.out.println("Thank you. Bay!");
-
-    };
+    }
 }
