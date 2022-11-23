@@ -5,10 +5,26 @@ public class Main {
         System.out.println("Hello world!");
 
         Main obj = new Main();
+        obj.task0();
         obj.task1();
         obj.task2();
         obj.task3();
     }
+
+    public void task0() {
+        System.out.println("\nTask 0");
+        int i = 1;
+        int j = 1;
+        System.out.println("i: " + i);
+        System.out.println("j: " + j);
+
+        System.out.println("i++: " + i++);
+        System.out.println("++j: " + ++j);
+
+        System.out.println("i: " + i);
+        System.out.println("j: " + j);
+    }
+
 
     public int[] task1() {
         System.out.println("\nTask 01");
